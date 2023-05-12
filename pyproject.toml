@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "potatopy"
+version = "0.1.0"
+description = ""
+authors = ["Potato Mexicano <potatomexicano006@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.13"
+flask = "^2.3.2"
+psycopg2 = "^2.9.6"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "potatopy"
+version = "1.0.0"
+dependencies = ["flask","sqlalchemy","psycopg2"]
