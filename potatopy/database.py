@@ -1,6 +1,6 @@
-from sqlalchemy import create_engine, URL
-from sqlalchemy.orm import scoped_session, sessionmaker, DeclarativeBase
 from decouple import config
+from sqlalchemy import URL, create_engine
+from sqlalchemy.orm import DeclarativeBase, scoped_session, sessionmaker
 
 engine = create_engine(URL.create(
     drivername='postgresql',

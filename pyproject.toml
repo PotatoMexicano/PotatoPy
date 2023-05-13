@@ -11,7 +11,11 @@ sqlalchemy = "^2.0.13"
 flask = "^2.3.2"
 psycopg2 = "^2.9.6"
 python-decouple = "^3.8"
+flask-login = "^0.6.2"
 
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
 
 [build-system]
 requires = ["poetry-core"]
